@@ -13,6 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		plugin = {"pretty","json:target/json-report/cucumber.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+	//testing git repooioriyory
 		)
 
 public class TestRunner {
